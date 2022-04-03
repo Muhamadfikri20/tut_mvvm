@@ -12,5 +12,7 @@ ThemeData getApplicationTheme() {
     primaryColorDark: ColorManager.darkPrimary,
     disabledColor: ColorManager.grey1,
     colorScheme: ColorScheme.fromSwatch().copyWith(secondary: ColorManager.grey),
+    // card view theme
+    cardTheme: CardTheme(color: ColorManager.white, shadowColor: ColorManager.grey, elevation: AppSize.s4),
   );
 }
